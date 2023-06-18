@@ -6,18 +6,15 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 100vh;
 }
 
 .header-logo {
-    margin-top: 70px;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
-    background-color: brown;
-}
-
-.credentials-input {
-    text-align: center;
-    margin-top: 100px;
 }
 
 .button {
@@ -31,6 +28,24 @@
 
 .footer-anchor {
     text-align: center;
-    padding-bottom: 5vh;
 }
 
+.second-section {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    align-items: center;
+}
+
+.last-section {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
