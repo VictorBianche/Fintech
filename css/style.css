@@ -1,9 +1,26 @@
-.header-logo {
-    margin-top: 5vh;
-    width: 80vw;
+.wrapper {
+    background-color: lightgray;
 }
+
+.header-logo {
+    margin-top: 10vh;
+    max-width: 50vw;
+    margin-bottom: 10vh;
+}
+
 .footer-anchor {
     text-align: center;
     text-decoration: none;
     color: inherit;
+}
+
+.submit-btn {
+    background-color: rgb(0, 96, 84) !important;
+    color: whitesmoke !important;
+}
+
+@media screen and (max-width: 900px) {
+    .header-logo {
+        margin-bottom: 30vh;
+    }
 }
